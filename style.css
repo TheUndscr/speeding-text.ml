@@ -1,0 +1,15 @@
+@keyframes texttarget{
+	from{
+		right: -2000%;
+	}
+	
+	to{
+		right: 2000%;
+	}
+}
+
+.texttarget {
+    animation: texttarget 5s infinite;
+    position: absolute;
+    bottom: 50%;
+}
